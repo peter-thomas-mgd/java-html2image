@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+<head>
+    <style>
+        .mgd-ad {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            display: block;
+            font-family: "Helvetica Neue Regular";
+            overflow: hidden;
+            height: 250px;
+            width: 300px;
+        }
+        .mgd-ad img {
+            display: block;
+        }
+        .mgd-ad .mgd-ad-creative-mask {
+            overflow: hidden;
+        }
+        .mgd-ad .mgd-ad-chain {
+            top: 205px;
+            height: 30px;
+            display: block;
+            position: absolute;
+        }
+        .mgd-ad .mgd-ad-chain-logo {
+            display: block;
+            margin-left: 8px;
+            padding-top: 8px;
+            width: 135px;
+        }
+        .mgd-ad .mgd-ad-chain-store-ctr {
+            left: 140px;
+            width: 160px;
+            overflow: hidden;
+            padding-top: 4px;
+            padding-left: 15px;
+            max-height: 26px;
+            font-size: 10px;
+            color: #091a28;
+        }
+    </style>
+</head>
+
+<body>
+<main>
+    <!-- Ad Creative + Local Store Overlay -->
+    <div class="mgd-ad">
+        <div class="mgd-ad-creative-mask">
+            <img class="mgd-ad-creative" src="http://assets.dev.ads.mygrocerydeals.com/campaigns/026eccc9-88e5-47aa-9752-95dab3cb77ae/300x250-demo-smart-ads-recipe.png" alt="{{base.caption}}"/>
+        </div><!-- .mgd-ad-creative-mask -->
+        <div class="mgd-ad-content">
+            <div class="mgd-ad-chain">
+                <img class="mgd-ad-chain-logo" src="http://www.mygrocerydeals.com/chains/small/albertsons.png" alt="{{chain.caption}}"/>
+            </div>
+            <div class="mgd-ad-chain mgd-ad-chain-store-ctr">
+                <div class="mgd-ad-chain-store">2150 N Josey Ln</div>
+                <div class="mgd-ad-chain-store">Carrollton, TX 75006</div>
+            </div>
+        </div><!-- .mgd-ad-content -->
+    </div><!-- .mgd-ad -->
+</main>
+</body>
+
+</html>
